@@ -1,2 +1,2 @@
-# Own-PortaFolio
-Making my own portafolio
+# Profile Image
+Making your presence online
