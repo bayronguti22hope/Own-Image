@@ -1,0 +1,112 @@
+.table{
+   width: 100%;
+   margin:auto;
+   text-align: center;
+   padding-top: 25px ;
+}
+
+.tablex4{
+   float: left;
+   width: 25% ;
+   margin-top: 20px;
+}
+
+
+.tablex2{
+   float: left;
+   width: 25% ;
+   margin-top: 10px;
+
+}
+
+
+.box-price{
+   border: 1px solid grey ;
+   background : #30355c ;
+   margin-bottom: 30px ;
+}
+
+.icon-precio{
+   color: #85c34a ;
+   padding-top: 20px ;
+   font-size: 3em ;
+   padding-bottom: 10px ;
+}
+
+.box-price h4 {
+   color: #ffffff;
+}
+
+.box-price:hover{
+   border: 5px solid #85c34a ;
+}
+
+.price-1{
+   color: #85c34a ;
+   font-size: 50px ;
+   font-weight: bold;
+}
+
+.dolar{
+   font-size: 20px ;
+   vertical-align: super;
+}
+
+.month{
+   font-size: 10px ;
+   color: #878180 ;
+   vertical-align: text-bottom;
+}
+
+.list-price{
+   list-style: none;
+   padding:  0px 20px ;
+   color:  #878180 ;
+   padding-bottom:  15px ;
+}
+
+.list-prices{
+   padding: 0.25em ;
+   font-size: 14px ;
+
+}
+
+.button-hired{
+   margin-bottom:  25px ;
+}
+.hired-a{
+   background: #85c34a;
+   text-decoration: none ;
+   color : #ffffff ;
+   text-transform:  uppercase;
+   font-weight: bold ;
+   padding: 10px 70px ;
+   letter-spacing: 1 px ;
+   width: 90% ;
+}
+.hired-a:hover{
+   background: #777 ;
+}
+
+.better{
+   background-color: #ffffff ;
+   box-shadow: 0 0 8px rgba (0, 0, 0, 0.8 );
+   z-index: 500 ;
+}
+
+.better h4{
+   color: #30353c ;
+   font-size: 30px ;
+}
+
+.better .icon-precio {
+   font-size:  4em ;
+}
+
+.better .hired-a{
+   background: #30353c ;
+}
+
+.better .hired-a:hover{
+   background: #777 ;
+}

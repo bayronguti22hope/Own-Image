@@ -1,0 +1,137 @@
+*{
+  margin: 0 ;
+  padding: 0 ;
+}
+
+header {
+  width: 100% ;
+  background: rgba(26, 188, 156, .8) ;
+  height: 100px ;
+  position: fixed;
+  z-index: 10 ;
+}
+
+/* width changes */
+.width{
+  width: 80% ;
+  height: 70px ;
+/*  background: #1abc9c ; */
+  margin: auto ;
+}
+
+.logo{
+  width: 30% ;
+  height: 70px ;
+  /*  background: #1abc9c ; */
+  float: left;
+  padding-top: 20px ;
+  box-sizing: border-box;
+}
+
+.logo p a {
+  color: #fff;
+  font-size: 32px ;
+  text-decoration: none;
+  font-weight: normal ;
+  font-family: SourceCodePro ;
+  text-transform: uppercase;
+}
+
+nav{
+  width: 70% ;
+  height: 70px ;
+/*  background: #1abc9c ; */
+  float: left;
+  text-align: right;
+  padding-top: 45px ;
+  box-sizing: border-box;
+}
+
+nav ul li {
+  display: inline ;
+
+}
+
+nav ul li a{
+  color: #fff;
+  font-size: 23px ;
+  text-decoration: none;
+  /* text-transform: uppercase; */
+  padding-left: 25px ;
+  font-weight: bold ;
+  letter-spacing: 2px ;
+  font-family: SourceCodePro ;
+
+}
+
+nav ul li a:hover{
+  color: #444 ;
+}
+
+@font-face {
+  font-family: SourceCodePro ;
+  src: url(fonts/SourceCodePro-Regular.ttf);
+}
+
+/* Footer styles */
+
+
+
+.footer{
+margin-top: 20px ; 
+display: flex ;
+width: 100%;
+background-color:  rgba(26, 188, 156, .8) ;
+color: white;
+height: 180px ;
+justify-content: space-between ;
+
+}
+
+
+
+/*
+.footer:hover{
+  width: 100%;
+  background-color: rgb(0, 255, 213);
+  color: white;
+  text-align: center;
+}
+*/
+
+
+.contact-info{
+  margin-left: 20px ;
+  
+}
+
+
+.footer h3 {
+  
+  font-family: SourceCodePro ;
+  font-weight: lighter  ;
+  text-align: left;
+  font-size: 16px ;
+  margin-top: 15px ;
+  margin-left: 60px ;
+  margin-bottom: 20px ;
+
+}
+
+
+
+.footer-social{
+  justify-content: center ;
+  margin: 10px 40px 80px 10px ;
+}
+
+.footer-social i{
+  padding-right: 20px ;
+}
+
+
+.footer-social i:hover {
+  opacity: .2;
+}
+
+
