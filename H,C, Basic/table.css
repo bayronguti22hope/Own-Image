@@ -22,12 +22,12 @@
 
 .box-price{
    border: 1px solid grey ;
-   background : #30355c ;
+   background : rgba(26, 188, 156, .8) ;
    margin-bottom: 30px ;
 }
 
 .icon-precio{
-   color: #85c34a ;
+   color: #128AC9 ;
    padding-top: 20px ;
    font-size: 3em ;
    padding-bottom: 10px ;
@@ -38,11 +38,11 @@
 }
 
 .box-price:hover{
-   border: 5px solid #85c34a ;
+   border: 5px solid #128AC9 ;
 }
 
 .price-1{
-   color: #85c34a ;
+   color: #128AC9 ;
    font-size: 50px ;
    font-weight: bold;
 }
@@ -50,13 +50,22 @@
 .dolar{
    font-size: 20px ;
    vertical-align: super;
+   
 }
 
 .month{
    font-size: 10px ;
-   color: #878180 ;
+   color: #ffffff ;
    vertical-align: text-bottom;
 }
+
+
+.month-2{
+    font-size: 10px ;
+    color: black ;
+    vertical-align: text-bottom;
+ }
+
 
 .list-price{
    list-style: none;
@@ -75,7 +84,7 @@
    margin-bottom:  25px ;
 }
 .hired-a{
-   background: #85c34a;
+   background: #128AC9;
    text-decoration: none ;
    color : #ffffff ;
    text-transform:  uppercase;
@@ -85,7 +94,8 @@
    width: 90% ;
 }
 .hired-a:hover{
-   background: #777 ;
+   background:white ;
+   text-decoration: none ;
 }
 
 .better{
@@ -108,5 +118,7 @@
 }
 
 .better .hired-a:hover{
-   background: #777 ;
+   background: white ;
+   text-decoration: none ;
+   border: 1px solid #128AC9 ;
 }
